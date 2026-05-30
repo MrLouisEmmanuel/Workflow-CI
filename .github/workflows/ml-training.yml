@@ -35,7 +35,7 @@ jobs:
 
       - name: Set MLflow Tracking URI
         run: |
-          echo "MLFLOW_TRACKING_URI=./MLProject/mlruns" >> $GITHUB_ENV
+          echo "MLFLOW_TRACKING_URI=$GITHUB_WORKSPACE/MLProject/mlruns" >> $GITHUB_ENV
 
       - name: Run mlflow project
         run: |
