@@ -1,0 +1,13 @@
+name: california-housing-env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.12.7
+  - pip
+  - pip:
+    - scikit-learn==1.6.1
+    - mlflow==2.19.0
+    - pandas==2.2.3
+    - numpy==2.2.1
+    - matplotlib==3.10.0

@@ -1,0 +1,15 @@
+artifact_uri: file:D:/Machine Learning/Project-membangun-machine-learning-sistem/Workflow-CI/MLProject/mlruns/575112379082989143/5e6ea82f5e47462b80ee59d0f7ae7ccc/artifacts
+end_time: 1780119358549
+entry_point_name: ''
+experiment_id: '575112379082989143'
+lifecycle_stage: active
+run_id: 5e6ea82f5e47462b80ee59d0f7ae7ccc
+run_name: mlproject-random-forest
+run_uuid: 5e6ea82f5e47462b80ee59d0f7ae7ccc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1780119353734
+status: 3
+tags: []
+user_id: Acer
