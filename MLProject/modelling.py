@@ -26,8 +26,8 @@ warnings.filterwarnings("ignore")
 # ============================================================
 # Untuk MLflow Project, tracking URI bisa otomatis dari environment
 # atau kita set secara eksplisit ke folder lokal
-mlflow.set_tracking_uri("mlruns/")
-mlflow.set_experiment("california-housing-experiment")
+# mlflow.set_tracking_uri("mlruns/")
+# mlflow.set_experiment("california-housing-experiment")
 
 # ============================================================
 # 2. Load Dataset
@@ -85,7 +85,7 @@ print("=" * 60)
 # Aktifkan autolog
 mlflow.autolog()
 
-with mlflow.start_run(run_name="mlproject-random-forest"):
+with mlflow.start_run(run_name="mlproject-random-forest", nested=True):
     # Inisialisasi dan training model
     model = RandomForestRegressor(
         n_estimators=100,
